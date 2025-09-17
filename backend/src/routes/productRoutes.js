@@ -3,9 +3,9 @@ import { createProducts, deleteProduct, getProducts, updateProduct } from "../co
 
 const productRoutes = Router();
 
-productRoutes.get('/product', getProducts);
-productRoutes.post('/product', createProducts);
-productRoutes.put('/product/:id', updateProduct);
-productRoutes.delete('/product/:id', deleteProduct);
+productRoutes.get('/', getProducts);
+productRoutes.post('/', createProducts);
+productRoutes.put('/:id', updateProduct);
+productRoutes.delete('/:id', deleteProduct);
 
 export default productRoutes;

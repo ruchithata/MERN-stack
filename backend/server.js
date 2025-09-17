@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-app.use('/product', productRoutes);
+app.use('/api/product', productRoutes);
 
 app.listen(PORT, async()=> {
     try{
