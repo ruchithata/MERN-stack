@@ -6,6 +6,7 @@ import { useColorMode } from '@/components/ui/color-mode';
 
 const Navbar = () => {
     const {colorMode, toggleColorMode} = useColorMode();
+
   return (
     <Container maxW={"1140px"} px={4}>
         <Flex

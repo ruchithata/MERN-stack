@@ -11,12 +11,14 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^3.27.0",
+    "@chakra-ui/toast": "^7.0.2",
     "@emotion/react": "^11.14.0",
     "next-themes": "^0.4.6",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-icons": "^5.5.0",
-    "react-router-dom": "^7.9.1"
+    "react-router-dom": "^7.9.1",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
