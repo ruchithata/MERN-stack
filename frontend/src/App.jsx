@@ -21,4 +21,42 @@ function App() {
   )
 }
 
-export default App
+export default App;
+
+
+
+// import { Button, Dialog } from "@chakra-ui/react";
+// import {
+//   AlertDialogCloseButton,
+//   AlertDialogOverlay,
+// } from "@chakra-ui/modal";
+import { useDisclosure } from "@chakra-ui/hooks";
+
+// function TestModal() {
+//   const { isOpen, onOpen, onClose } = useDisclosure();
+
+//   return (
+//     <>
+//       {/* <Button onClick={onOpen}>Open Modal</Button> */}
+//       <Dialog.Root>
+//         <Dialog.Trigger>Open</Dialog.Trigger>
+//         <Dialog.Positioner>
+//           <Dialog.Content>
+//             <Dialog.Title>Hello</Dialog.Title>
+//             <Dialog.CloseTrigger>x</Dialog.CloseTrigger>
+//           </Dialog.Content>
+//         </Dialog.Positioner>
+//       </Dialog.Root>
+//       {/* <Dialog isOpen={isOpen} onClose={onClose} isCentered>
+//         <AlertDialogOverlay />
+//         <DialogContent>
+//           <DialogHeader>Hello</DialogHeader>
+//           <AlertDialogCloseButton />
+//           <DialogBody>This is a test modal.</DialogBody>
+//         </DialogContent>
+//       </Dialog> */}
+//     </>
+//   );
+// }
+
+// export default TestModal;
