@@ -1,103 +1,88 @@
-# MERN Stack Product Management App  
+# MERN Stack Product Management App
 
-A full-stack application built using the **MERN stack** (MongoDB, Express, React, Node.js) that allows users to **add, view, update, and delete products**.  
-This project helped me understand complete end-to-end development — from designing REST APIs to building a clean, interactive UI.
+A full-stack application built using the **MERN stack** (MongoDB, Express, React, Node.js) that allows users to **add, view, update, and delete products**.
 
----
-
-## Features  
-
-### Product Operations  
-- Add new products (name, price, image URL)  
-- View the full product list  
-- Update existing product details  
-- Delete products easily  
-
-### Full-Stack Implementation  
-- RESTful API endpoints for CRUD operations  
-- MongoDB for database storage  
-- Express server for routing and API logic  
-- React for frontend UI  
-- Chakra UI / Ark UI for clean and responsive styling  
+This project helped me understand complete end-to-end development — from designing REST APIs to building a working frontend that consumes them.
 
 ---
 
-## Tech Stack  
+## Features
 
-### **Frontend:**  
+### Product Operations
+- Add new products (name, price, image URL)
+- View all products in a product list
+- Update existing product details
+- Delete products
+
+### Full-Stack Architecture
+- REST API endpoints built with Node.js + Express
+- MongoDB database with Mongoose models
+- React frontend for UI and API interaction
+- Axios for API calls
+- Basic UI built using Chakra UI / Ark UI
+
+---
+
+## Tech Stack
+
+### **Frontend**
 - React  
 - Chakra UI / Ark UI  
 - Axios  
 
-### **Backend:**  
+### **Backend**
 - Node.js  
 - Express.js  
 - MongoDB + Mongoose  
 
 ---
 
-## How to Run the Project  
+## How to Run the Project
 
-### **1️ Clone the repository**  
+### **1. Clone the repository**
 ```bash
 git clone https://github.com/ruchithata/MERN-stack
 cd MERN-stack
+```
 
-### **2 Install and start backend dependencies**
+### **2. Install and start backend**
 ```bash
 cd backend
 npm install
 npm start
+```
 
-### **3 Install and run frontend dependencies**
+### **2. Install and start frontend**
 ```bash
 cd frontend
 npm install
 npm start
+```
 
 ## API Endpoints
 
-### **Create Product**  
+### Create Product
 `POST /api/products`
 
-### **Get All Products**  
+### Get All Products
 `GET /api/products`
 
-### **Update Product**  
+### Update Product
 `PUT /api/products/:id`
 
-### **Delete Product**  
+### Delete Product
 `DELETE /api/products/:id`
 
----
-
 ## What I Learned
+This project helped me practice and understand:
+- Connecting a MongoDB database to Express
+- Implementing CRUD operations
+- Structuring a full-stack MERN application
+- Creating frontend components to interact with API routes
+- Handling React state and API integration
+- Understanding the flow of data: Database → Backend API → Frontend UI
 
-This project helped me gain hands-on experience with:
 
-- Designing and connecting a **MongoDB database** to Express APIs  
-- Handling **CRUD operations** end-to-end  
-- Using **React** to build dynamic, reusable UI components  
-- Managing state efficiently across the app  
-- Structuring full-stack codebases into **frontend and backend modules**  
-- Working with **environment variables**, routing, and API integration  
-- Understanding the flow: **Database → Backend API → Frontend UI**
 
----
-
-## Future Improvements
-
-I plan to enhance the project by adding:
-
-- User **authentication** (JWT + protected routes)  
-- Image upload support (**Cloudinary/Multer**)  
-- Pagination + search filters  
-- A cleaner, more responsive UI  
-- Deployment on **Vercel + Render**  
-- Unit + integration tests  
-
----
-
-## Repository
-
-**GitHub:** https://github.com/ruchithata/MERN-stack
+## *Repository*
+GitHub: https://github.com/ruchithata/MERN-stack
