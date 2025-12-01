@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:5173",          // for local dev
-    "https://mern-stack-7k4g.vercel.app/" // your Vercel URL
+    "https://mern-stack-7k4g.vercel.app" // your Vercel URL
   ],
   credentials: true
 }));
