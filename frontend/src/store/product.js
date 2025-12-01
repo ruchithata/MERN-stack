@@ -1,6 +1,6 @@
 import {create} from "zustand";
 
-const API_BASE = import.meta.env.VITE_API_URL;
+const API_BASE = "https://mern-stack-2-a87z.onrender.com"
 
 export const useProductStore = create((set) =>({
     products: [],
