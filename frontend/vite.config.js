@@ -13,7 +13,7 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      "/api": `http://localhost:3030`,
+      "/api": `https://mern-stack-2-a87z.onrender.com/`,
     },
   },
 });
